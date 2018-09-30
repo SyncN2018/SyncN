@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "app-module-path": "^2.2.0",
+    "axios": "^0.18.0",
+    "global": "^4.3.2",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "nconf": "^0.10.0",
+    "node-forge": "^0.7.6",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-pool": "^2.8.3",
+    "nodemon": "^1.18.4",
+    "pm2": "^3.1.2",
+    "request": "^2.88.0"
+  },
+  "name": "SyncN",
+  "version": "1.0.0",
+  "description": "Service",
+  "main": "index.js",
+  "repository": "syncn.club",
+  "author": "bluehdh0926@gmail.com",
+  "license": "MIT"
+}

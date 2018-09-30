@@ -1,0 +1,28 @@
+{
+    "version" : "1.0.0",
+    "c-version": "0.0.1",
+    "description": "Mail service",
+    "debug": true,
+    "manager": "bluehdh0926@gmail.com",
+    "mq" : {
+        "host": "jis5376.iptime.org",
+        "port": "5672",
+        "api_port": "9999",
+        "vhost": "syncn",
+        "id": "syncn",
+        "pw": "syncn"
+        
+    },
+    "mail": {
+        "queue" : "mail",
+        "host": "localhost",
+        "port": "587",
+        "pw": "syncn",
+        "id": "syncn"
+    },
+    "service": {
+        "port": 9759,
+        "host": "syncn.club",
+        "protocol": "http"
+    }
+}
