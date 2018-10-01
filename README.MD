@@ -4,7 +4,7 @@
 # SyncN!
 **Sticy Note**를 사용하면서 icloud의 동기화가 부러웠던 적이 있으세요?? **SyncN**을 써보세요!!
 
- * 언제 어디서나 기록한 메모를 볼 수 있습니다. 매번 동기화를 하지 않아도 됩니다!!
+ * 언제 어디서나 기록한 메모를 볼 수 있습니다.
  * 기존에 사용하던 이메일로 로그인 하세요. 따로 회원가입이 필요 없습니다.
  * 더 이상 번거로운 프로그램을 사용하지 마세요. 간편한 “SyncN”으로 Sticky Note를 100% 활용해보세요
 
@@ -21,7 +21,7 @@
 >
 >[5. 개발 환경]( https://github.com/Fhwang0926/syncn_v1#%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD)
 >
- >[6 데모]  
+ >[6 데모](https://github.com/Fhwang0926/syncn_v1#%EB%8D%B0%EB%AA%A8)
  
 
 
@@ -68,6 +68,8 @@ url입력칸 & exe파일 첨부 칸
 
 ## 설치
 
+Server Side
+
 1. Rabbit MQ 설치
 ```bash
 # we need to install erlang for dependencies
@@ -100,6 +102,10 @@ http://localhost:15672
 ```
 <img src="https://github.com/Fhwang0926/syncn_v1/blob/master/Image/RabbitMq%20Enter.gif" width="60%"></img> 
 
+만약 설치에 어려움이 있다면 운영체제에 맞게 공식 웹사이트 설치 가이드를 따라하시면 좋을 것 같습니다
+http://www.rabbitmq.com/#getstarted
+
+
 ## 장점
 >* DB가 필요없습니다!
 >
@@ -128,3 +134,10 @@ http://localhost:15672
 >* [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 >* [PyCharm Community 2018](https://www.jetbrains.com/pycharm/download/#section=windows)
 >* [PyQt5 Designer](https://www.jetbrains.com/pycharm/download/#section=windows) 
+
+## 데모
+*[Demo Link](https://www.youtube.com/watch?v=6jfhkHdDLSg&feature=youtu.be)
+
+
+[![demo](https://i.ytimg.com/vi/6jfhkHdDLSg/maxresdefault.jpg)](https://www.youtube.com/watch?v=6jfhkHdDLSg&feature=youtu.be)
+
